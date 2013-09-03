@@ -1,0 +1,102 @@
+body > .showcase {
+   background: url('img/showcase.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top center;
+   text-align: center;
+}
+body > .showcase > * {
+   display: inline-block;
+   margin: 6em auto 8em;
+}
+
+
+/* SPECIFIC */
+.showcase .image {
+   display: inline-block;
+   float: left;
+   color: white;
+}
+.showcase .title {
+   color: white;
+}
+.showcase button.outlined {
+   border: 0.2em solid black;
+}
+.showcase .tab {
+   width: 50%;
+   padding: 0 25%;
+}
+.showcase img {
+   height: 10em;
+}
+.showcase .title {
+   margin-top:  3em;
+}
+.showcase .description {
+   margin: 0.5em auto;
+}
+/*End of SPECIFIC*/
+
+.tab:not(.active) {
+   display: none;
+}
+
+
+body > .quote {
+   display: block;
+   width: 70%;
+   margin: -2em auto 2em;
+   padding: 1em;
+   background-color: #f6f6f6;
+   border-radius: 0.2em;
+}
+body > .quote .title {
+   font-size: 1.1em;
+}
+body > .quote button {
+   margin: -1em 1em 1em -1em;
+}
+body > .quote .description {
+   text-transform: lowercase;
+   font-variant: small-caps;
+   font-weight: bold;
+   font-size: 0.9em;
+   color: #3f3f3f;
+}
+
+body > .features {
+   display: block;
+   width: 70%;
+   overflow: auto;
+   margin: 0 auto;
+}
+body > .features .feature {
+   float: left;
+   width: 10em;
+   margin: 1.5em;
+}
+
+.feature .icon {
+   float: left;
+   width: 2em;
+   height: 2em;
+   border-radius: 2em;
+   background-color: #535353;
+   margin-right: 0.5em;
+}
+.feature .icon > * {
+   width: 1em;
+   margin: 0.5em -0.5em -0.5em 0.5em;
+}
+.feature .title {
+   line-height: 2em;
+   text-transform: lowercase;
+   font-variant: small-caps;
+   color: #2A2A2A;
+}
+.feature .description {
+   font-size: 0.9em;
+   text-align: center;
+   color: #666666;
+}

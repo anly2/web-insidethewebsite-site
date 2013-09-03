@@ -1,0 +1,154 @@
+ /*Main definitions*/
+body {
+   font-family:  Palatino Linotype, Helvetica, Verdana, Arial;
+   font-size: 16px;
+   background-color: #f6f6f6;
+
+   margin: 0;
+   padding: 0;
+}
+
+
+ /* General definitions */
+.nav {
+   list-style: none;
+   padding: 0;
+}
+ .nav li {
+   display: inline-block;
+}
+a {
+   text-decoration: none;
+   color: inherit;
+}
+a:hover {
+   text-decoration: underline;
+}
+.title {
+   text-transform: uppercase;
+   font-weight: bold;
+}
+button {
+   background-color:  #00858d;
+   padding: 0.5em;
+   text-transform: lowercase;
+   font-variant: small-caps;
+   font-weight: bold;
+   color: white;
+   border-width: 0;
+   border-radius: 0.2em;
+}
+
+
+ /*Header definition*/
+body > .header {
+   display: block;
+   padding: 1em 10%;
+   width: auto;
+   overflow: auto;
+}
+body > .header {
+   border-top: 1em solid #3f3f3f;
+}
+
+body > .header .logo {
+   display: inline-block;
+   float: left;
+}
+body > .header .nav {
+   display: inline-block;
+   float: right;
+}
+body > .header .nav a {
+   margin: auto 0.5em;
+}
+body > .header .nav a {
+   text-transform: lowercase;
+   font-weight: bold;
+   color: #6d6d6d;
+}
+body > .header .nav .current,
+body > .header .nav a:hover {
+   color: #00858d;
+}
+
+
+ /*Footer definition*/
+body > .footer {
+   background-color: #262626;
+   color: #FFFFFF;
+   width: 100%;
+   overflow: auto;
+   margin-top: 2em;
+}
+body > .footer .sections {
+   width: 80%;
+   overflow: auto;
+   padding: 3em 10%;
+}
+body > .footer .sections > * {
+   /*class: Section*/
+   display: inline-block;
+   float: left;
+   width: 20%;
+}
+body > .footer .sections > *:not(:last-of-type) {
+   margin-right: 4.9%;
+}
+
+body > .footer .sections .title {
+   margin-bottom: 1em;
+}
+body > .footer .sections .description {
+   font-size: 0.9em;
+}
+
+body > .footer .nav li {
+   display: block;
+}
+body > .footer .nav a {
+   color: inherit;
+}
+body > .footer a {
+   color: #00858d;
+}
+
+body > .footer form > * {
+   margin: 0.25em auto;
+   color: #b2b2b2;
+   font-style: italic;
+   font-family: inherit;
+   font-size: 1em;
+}
+body > .footer form input,
+body > .footer form textarea {
+   resize: none;
+   background-color: inherit;
+   border: 1px solid transparent;
+}
+body > .footer form input:focus,
+body > .footer form textarea:focus {
+   border-color: #1B1B1B;
+   resize: both;
+}
+body > .footer form input[type="submit"] {
+   font-style: normal;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+body > .footer > .copyright {
+   clear: both;
+   display: block;
+   padding: 1em 10%;
+   border-top: 1px solid #606564;
+   height: 1em;
+   background-color: #2F332F;
+}
+body > .footer > .copyright > * {
+   display: inline-block;
+}
+.copyright .socials {
+   float: right;
+   margin-right: 5em;
+}
